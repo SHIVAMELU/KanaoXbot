@@ -45,11 +45,11 @@ async def hmm(yes):
     text2 += f"➢ **PTB Version** - `{telegram.__version__}`\n"
     text2 += f"➢ **Pyrogram Version** - `{pyro}`\n"
     text2 += f"➢ **MY MASTER** - [{OWNER_NAME}](tg://user?id={OWNER_ID})\n"
-    text2 += f"➢ **MY DEVELOPER** - [ᏆՏᎻᏆᏦᏦᏆ ᎪᏦᎪᏴᎪΝᎬ](https://t.me/ishikki_akabane)"
+    text2 += f"➢ **MY DEVELOPER** - [𝓴𝓪𝓷𝓮𝓴𝓲](https://t.me/tobiix)"
     BUTTON = [
         [
-            Button.url("Support Chat", "https://t.me/hydraXsupport"),
-            Button.url("Updates", "https://t.me/Hydra_Updates"),
+            Button.url("Support Chat", "https://t.me/botsupportx"),
+            Button.url("Updates", "https://t.me/hinatabotsupport"),
         ]
     ]
     on = await tbot.send_file(
