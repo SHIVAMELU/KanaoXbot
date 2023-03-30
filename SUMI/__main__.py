@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {},*
-*I'm Kanao, I'm Goddess Of The New World 
+*I'm hinata, I'm Goddess Of The New World 
 And a Powerful Group Management Bot.*
 
-❍ *Owner - Kaneki*
+❍ *Owner - Tobi*
 ❍ *Uptime* - {}
 **ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ.**
 """
@@ -93,15 +93,15 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕️ Add Kanao To Your Chat ➕️",
-            url="https://t.me/Kanao_ProXbot?startgroup=true",
+            url="https://t.Hinata_proxbot?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text=" Chat group ", url="https://t.me/WingsOfFreedomm"),
+        InlineKeyboardButton(text=" Chat group ", url="https://t.me/AKATSUKIxCHATS"),
     ],
     [
-        InlineKeyboardButton(text="💯 Support 💯", url="https://t.me/TSC_BotsSupport"),
-        InlineKeyboardButton(text="𝗛𝗲𝗹𝗽 🛠", callback_data="help_back"),
+        InlineKeyboardButton(text="💯 Support 💯", url="https://t.me/botsupportx"),
+        InlineKeyboardButton(text="Help 🛠", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="🎵  Music  🎵", url="https://t.me/Musicxmanage"),
@@ -132,7 +132,7 @@ REPO_TXT = f"""
 """
 
 ABOUT3 = """
-Hello [{}], My name is *KANAO*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
+Hello [{}], My name is *hinata*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
 ‣ I can Restrict Users.
 ‣ I can Greet Users with customizable welcome message and even set a group rules
 ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
@@ -317,8 +317,8 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="t.me/TSC_BotsSupport"),
-                        InlineKeyboardButton(text="Updates", url="t.me/TSC_BotsSupport"),
+                        InlineKeyboardButton(text="Support", url="t.me/hinatabotsupport"),
+                        InlineKeyboardButton(text="Updates", url="t.me/botsupportx"),
                     ]
                 ]
             ),
@@ -463,8 +463,8 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="t.me/TSC_BotsSupport"),
-                        InlineKeyboardButton(text="Updates", url="t.me/TSC_BotsSupport"),
+                        InlineKeyboardButton(text="Support", url="t.me/hinatabotsupport"),
+                        InlineKeyboardButton(text="Updates", url="t.me/botsupportx"),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="sumi_")],
                 ]
@@ -486,10 +486,10 @@ def repo_callback_data(update, context):
                     [
                         InlineKeyboardButton(
                             text="Source Code",
-                            url="https://github.com/ishikki-akabane/SUMI",
+                            url="https://github.com/SHIVAMELU/KanaoXbot",
                         ),
                         InlineKeyboardButton(
-                            text="Developer", url="t.me/ishikki_akabane"
+                            text="Developer", url="t.me/King_of_Ghoul"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="sumi_")],
@@ -589,7 +589,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text=" Click here",
-                            url="https://t.me/Kanao_ProXbot?startgroup=true",
+                            url="https://t.me/Hinata_proxbot?startgroup=true",
                         )
                     ]
                 ]
