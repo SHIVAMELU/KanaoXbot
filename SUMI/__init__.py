@@ -144,7 +144,7 @@ if ENV:
         "SUMI_PM_IMAGE", "https://te.legra.ph/file/3bc86b9189b69fbc8620f.jpg"
     )
     GROUPSTART_VID = os.environ.get(
-        "SUMI_GROUPSTART_VID", ""
+        "SUMI_GROUPSTART_VID", "https://te.legra.ph/file/9d769eca2ebf88c0e8ac5.mp4"
     )
     SUMI_OWNER_WEL_IMG = os.environ.get(
         "SUMI_OWNER_WEL_IMG", "https://te.legra.ph/file/6a12a29a0666819b07b8c.jpg"
