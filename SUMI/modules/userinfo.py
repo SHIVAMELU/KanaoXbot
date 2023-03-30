@@ -492,7 +492,7 @@ def stats(update, context):
 
 
 def stats1(update: Update, context: CallbackContext):
-    stats = "🌐 <b>⌈ Current Kanao Stats ⌋</b>\n" + "\n".join(
+    stats = "🌐 <b>⌈ Current Hinata Stats ⌋</b>\n" + "\n".join(
         [mod.__stats__() for mod in STATS]
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
