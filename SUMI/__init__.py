@@ -26,7 +26,7 @@ logging.basicConfig(
 )
 
 LOGGER = logging.getLogger("[SUMI]")
-LOGGER.info("CREATED BY: ISHIKKI-AKABANE (t.me/Ishikki_Akabane)")
+LOGGER.info("CREATED BY: kaneki (t.me/King_of_Ghoul)")
 
 log = logging.getLogger("[Your Bot Is DEPLOYING]")
 
