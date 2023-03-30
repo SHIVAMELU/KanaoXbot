@@ -126,37 +126,37 @@ if ENV:
     OWNER_NAME = os.environ.get("OWNER_NAME", None)
     COTB = "Ishikki_Akabane"
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
-    NETWORK_USERNAME = "KazumaClanXD"
-    NETWORK_NAME = "KAZUMA CLAN"
+    NETWORK_USERNAME = "Hizuru"
+    NETWORK_NAME = "Hizuru Support"
     AFKVID = os.environ.get(
-        "SUMI_AFKVID", "https://te.legra.ph/file/3e4d749465d63706d70ea.mp4"
+        "SUMI_AFKVID", "https://te.legra.ph/file/f07f292f72e1812dc313b.mp4"
     )
     GROUP_ALIVE_PIC = os.environ.get(
-        "SUMI_GROUP_ALIVE_PIC", "https://telegra.ph/file/26dca58da283645b6d19b.jpg"
+        "SUMI_GROUP_ALIVE_PIC", "https://te.legra.ph/file/12c01a8771c32822f4ee2.jpg"
     )
     SUMI_DISPACHER_PIC = os.environ.get(
-        "SUMI_DISPACHER_PIC", "https://te.legra.ph/file/ab4397a139620f1fc8b20.jpg"
+        "SUMI_DISPACHER_PIC", "https://te.legra.ph/file/ce66aca0de9284ad4f495.jpg"
     )
     SUMI_HELP_PIC = os.environ.get(
-        "SUMI_HELP_PIC", "https://te.legra.ph/file/d49e4321e971e90d2d588.jpg"
+        "SUMI_HELP_PIC", "https://te.legra.ph/file/d87600aba1246a81fafa8.jpg"
     )
     PM_IMAGE = os.environ.get(
-        "SUMI_PM_IMAGE", "https://te.legra.ph/file/2d75ceb5c898288390b4b.jpg"
+        "SUMI_PM_IMAGE", "https://te.legra.ph/file/3bc86b9189b69fbc8620f.jpg"
     )
     GROUPSTART_VID = os.environ.get(
-        "SUMI_GROUPSTART_VID", "https://te.legra.ph/file/0a27889037311e508efdf.mp4"
+        "SUMI_GROUPSTART_VID", ""
     )
     SUMI_OWNER_WEL_IMG = os.environ.get(
-        "SUMI_OWNER_WEL_IMG", "https://te.legra.ph/file/f5b41a463bc226291e308.jpg"
+        "SUMI_OWNER_WEL_IMG", "https://te.legra.ph/file/6a12a29a0666819b07b8c.jpg"
     )
     SUMI_DIS_WEL = os.environ.get(
-        "SUMI_DIS_WEL", "https://te.legra.ph/file/574c133b9a41f16808f73.jpg"
+        "SUMI_DIS_WEL", "https://te.legra.ph/file/fafe4f71a7ec5c05a1dfb.jpg"
     )
     SUMI_WELCOME = os.environ.get(
-        "SUMI_WELCOME", "https://te.legra.ph/file/52b423bc8c9886fb03aab.jpg"
+        "SUMI_WELCOME", "https://te.legra.ph/file/956e25bd414806af411de.jpg"
     )
     SUMI_STATS_PIC = os.environ.get(
-        "SUMI_STATS_PIC", "https://te.legra.ph/file/cb81518d97562d5eca417.jpg"
+        "SUMI_STATS_PIC", "https://te.legra.ph/file/cee8858002e3445df1303.jpg"
     )
 
     try:
@@ -252,7 +252,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5030730429)
+DEV_USERS.add(5348193047)
 
 if not SPAMWATCH_API:
     sw = None
