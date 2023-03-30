@@ -153,18 +153,18 @@ Main commands available :
 For all command use / or !
 """
 
-SUMI_PIC = "https://graph.org/file/170543396e4e1ea5ab09a.jpg"
+SUMI_PIC = "https://te.legra.ph/file/12c01a8771c32822f4ee2.jpg"
 
 SUMI_N_IMG = (
-    "https://graph.org/file/a8d107883b896faa85703.jpg",
-    "https://graph.org/file/a8d107883b896faa85703.jpg",
+    "https://te.legra.ph/file/d87600aba1246a81fafa8.jpg",
+    "https://te.legra.ph/file/ce66aca0de9284ad4f495.jpg",
 )
 
-SUMI_VID = "https://graph.org/file/622f001333d9262d0fd06.jpg"
+SUMI_VID = ""https://te.legra.ph/file/3bc86b9189b69fbc8620f.jpg
 
-PM_PHOTO = "https://graph.org/file/7403c8a337d60e49176c4.jpg"
+PM_PHOTO = "https://te.legra.ph/file/cee8858002e3445df1303.jpg"
 
-SUMI_DISPACHER_PIC = "https://graph.org/file/834b460f1d7c0328c5447.jpg"
+SUMI_DISPACHER_PIC = "https://te.legra.ph/file/956e25bd414806af411de.jpg"
 
 DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You tell me your honest review about the bot"""
 
