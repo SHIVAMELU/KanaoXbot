@@ -160,7 +160,7 @@ SUMI_N_IMG = (
     "https://te.legra.ph/file/ce66aca0de9284ad4f495.jpg",
 )
 
-SUMI_VID = ""https://te.legra.ph/file/3bc86b9189b69fbc8620f.jpg
+SUMI_VID = ""https://te.legra.ph/file/3bc86b9189b69fbc8620f.jpg"
 
 PM_PHOTO = "https://te.legra.ph/file/cee8858002e3445df1303.jpg"
 
